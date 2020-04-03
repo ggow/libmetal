@@ -19,7 +19,8 @@ extern "C" {
 #endif
 
 /** \defgroup mutex Mutex Interfaces
- *  @{ */
+ *  @{
+ */
 
 /**
  * @brief	Initialize a libmetal mutex.

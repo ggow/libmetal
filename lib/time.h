@@ -20,7 +20,8 @@ extern "C" {
 #endif
 
 /** \defgroup time TIME Interfaces
- *  @{ */
+ *  @{
+ */
 
 /**
  * @brief      get timestamp

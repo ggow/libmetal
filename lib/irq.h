@@ -20,7 +20,8 @@ extern "C" {
 #endif
 
 /** \defgroup irq Interrupt Handling Interfaces
- *  @{ */
+ *  @{
+ */
 
 /** IRQ handled status */
 #define METAL_IRQ_NOT_HANDLED 0

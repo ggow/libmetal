@@ -20,7 +20,8 @@ extern "C" {
 #endif
 
 /** \defgroup dma DMA Interfaces
- *  @{ */
+ *  @{
+ */
 
 #define METAL_DMA_DEV_R  1 /**< DMA direction, device read */
 #define METAL_DMA_DEV_W  2 /**< DMA direction, device write */
@@ -66,9 +67,9 @@ int metal_dma_map(struct metal_device *dev,
  * @param[in]  nents     number of sg list entries of DMA memory
  */
 void metal_dma_unmap(struct metal_device *dev,
-		  uint32_t dir,
-		  struct metal_sg *sg,
-		  int nents);
+		     uint32_t dir,
+		     struct metal_sg *sg,
+		     int nents);
 
 /** @} */
 
